@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title type="text">ScanT3r</title>
+	<subtitle type="text">ScanT3r Offical Site</subtitle>
+	<updated>2021-6-6T00:00:00Z</updated>
+	<link rel="alternate" type="text/html" href="https://scant3r.github.io/" />
+	<id>https://scant3r.github.io//atom.xml</id>
+	<link rel="self" type="application/atom+xml" href="https://scant3r.github.io//atom.xml" />
+<entry>
+	<title type="text">Example page</title>
+	<link rel="alternate" type="text/html" href="https://scant3r.github.io//yes.html" />
+	<id>https://scant3r.github.io//yes.html</id>
+	<updated>2009-04-12T00:00:00Z</updated>
+	<published>2009-04-12T00:00:00Z</published>
+	<author>
+		<name>knassar702</name>
+		<uri>https://scant3r.github.io/</uri>
+	</author>
+	<summary type="text">This is an example page</summary>
+</entry>
+<entry>
+	<title type="text">Example page</title>
+	<link rel="alternate" type="text/html" href="https://scant3r.github.io//ibm.html" />
+	<id>https://scant3r.github.io//ibm.html</id>
+	<updated>2009-04-12T00:00:00Z</updated>
+	<published>2009-04-12T00:00:00Z</published>
+	<author>
+		<name>knassar702</name>
+		<uri>https://scant3r.github.io/</uri>
+	</author>
+	<summary type="text">This is an example page</summary>
+</entry>
+<entry>
+	<title type="text">How to find api keys from static files with scant3r</title>
+	<link rel="alternate" type="text/html" href="https://scant3r.github.io//find_regex.html" />
+	<id>https://scant3r.github.io//find_regex.html</id>
+	<updated>2021-6-6T00:00:00Z</updated>
+	<published>2021-6-6T00:00:00Z</published>
+	<author>
+		<name>knassar702</name>
+		<uri>https://scant3r.github.io/</uri>
+	</author>
+	<summary type="text">hello every one this bla bla blal</summary>
+</entry>
+<entry>
+	<title type="text">Example page 2</title>
+	<link rel="alternate" type="text/html" href="https://scant3r.github.io//example2.html" />
+	<id>https://scant3r.github.io//example2.html</id>
+	<updated>2009-04-13T00:00:00Z</updated>
+	<published>2009-04-13T00:00:00Z</published>
+	<author>
+		<name>knassar702</name>
+		<uri>https://scant3r.github.io/</uri>
+	</author>
+	<summary type="text">This is an example page 2</summary>
+</entry>
+<entry>
+	<title type="text">Example page</title>
+	<link rel="alternate" type="text/html" href="https://scant3r.github.io//example.html" />
+	<id>https://scant3r.github.io//example.html</id>
+	<updated>2009-04-12T00:00:00Z</updated>
+	<published>2009-04-12T00:00:00Z</published>
+	<author>
+		<name>knassar702</name>
+		<uri>https://scant3r.github.io/</uri>
+	</author>
+	<summary type="text">This is an example page</summary>
+</entry>
+</feed>

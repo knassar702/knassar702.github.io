@@ -1,0 +1,5 @@
+2009-04-12T00:00:00Z	Example page: https://scant3r.github.io//yes.html
+2009-04-12T00:00:00Z	Example page: https://scant3r.github.io//ibm.html
+2021-6-6T00:00:00Z	How to find api keys from static files with scant3r: https://scant3r.github.io//find_regex.html
+2009-04-13T00:00:00Z	Example page 2: https://scant3r.github.io//example2.html
+2009-04-12T00:00:00Z	Example page: https://scant3r.github.io//example.html
