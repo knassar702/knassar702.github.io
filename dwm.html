@@ -1,20 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel>
-	<title>knassar702</title>
-	<description>knassar702 blog</description>
-	<link>https://knassar702.github.io/</link>
-<item>
-	<title>the best way to configure your dwm</title>
-	<link>https://knassar702.github.io//dwm.html</link>
-	<guid>https://knassar702.github.io//dwm.html</guid>
-	<dc:date>2021-6-21T00:00:00Z</dc:date>
-	<author>knassar702</author>
-	<description><![CDATA[<h1>the best way to configure your dwm</h1>
-        <p><strong>Last modification on </strong> <time>2021-6-21</time></p>
-        <p>hello everyone, dwm is the best window manager you can use it’s fast and minimalism and this the best thing i love of <a href="https://suckless.org/philosophy/">suckless philosophy</a> , in this post i’ll show you how to configure your dwm, we will configure keybinds &amp; color schema &amp; some tasks can help you for make an awesome WM for configure your dwm (or any suckless programs) you need to change somethings in <strong>config.h</strong></p>
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="keywords" content="patching,suckless,dwm" />
+	<meta name="description" content="simple patching for dwm" />
+	<meta name="author" content="knassar702" />
+	<meta name="generator" content="saait (https://git.codemadness.org/saait/file/README.html)" />
+	<title>the best way to configure your dwm - knassar702</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="print.css" type="text/css" media="print" />
+	<link rel="alternate" href="atom.xml" type="application/atom+xml" title="knassar702 Atom Feed" />
+	<link rel="alternate" href="atom_content.xml" type="application/atom+xml" title="knassar702 Atom Feed with content" />
+	<link rel="icon" href="/favicon.png" type="image/png" />
+</head>
+<body>
+	<nav id="menuwrap">
+		<table id="menu" width="100%" border="0">
+		<tr>
+			<td id="links" align="left">
+				<a href="index.html">Blog</a> |
+                <a href="../../../">Find me</a>
+			</td>
+			<td id="links-contact" align="right">
+				<span class="hidden"> | </span>
+				<a href="atom.xml">Atom feed</a> |
+				<a href="mailto:knassar702@protonmail.com" title="Mail me">Mail</a>
+			</td>
+		</tr>
+		</table>
+	</nav>
+	<hr class="hidden" />
+	<main id="mainwrap">
+		<div id="main">
+			<article>
+<header>
+	<h1><a href="">the best way to configure your dwm</a></h1>
+	<p><strong>Last modification on </strong> <time datetime="2021-6-21">2021-6-21</time></p>
+</header>
+
+<p>hello everyone, dwm is the best window manager you can use it’s fast and minimalism and this the best thing i love of <a href="https://suckless.org/philosophy/">suckless philosophy</a> , in this post i’ll show you how to configure your dwm, we will configure keybinds &amp; color schema &amp; some tasks can help you for make an awesome WM for configure your dwm (or any suckless programs) you need to change somethings in <strong>config.h</strong></p>
 <p>first let’s start with keybinds, dwm works with <strong>ALT</strong> key if you wan’t to change it from <strong>ALT</strong> to <strong>SUPER</strong> key, change <strong>config.h</strong> from <strong>#define MODKEY Mod1Mask</strong> to <strong>#define MODKEY Mod4Mask</strong> for add/remove keybinds for dwm go to <strong>keys</strong> list from <strong>config.h</strong></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">static</span> Key keys<span class="op">[]</span> <span class="op">=</span> <span class="op">{</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">/* modifier                     key        function        argument */</span></span>
@@ -62,7 +88,9 @@
     NULL
 };</code></pre>
 <p>after that run <strong>$ sudo make clean install</strong> and enjoy :)</p>
-]]></description>
-</item>
-</channel>
-</rss>
+
+			</article>
+		</div>
+	</main>
+</body>
+</html>

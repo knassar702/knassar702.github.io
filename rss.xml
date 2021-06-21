@@ -3,48 +3,16 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
-	<title>ScanT3r</title>
-	<description>ScanT3r Offical Site</description>
-	<link>https://scant3r.github.io/</link>
+	<title>knassar702</title>
+	<description>knassar702 blog</description>
+	<link>https://knassar702.github.io/</link>
 <item>
-	<title>Example page</title>
-	<link>https://scant3r.github.io//yes.html</link>
-	<guid>https://scant3r.github.io//yes.html</guid>
-	<dc:date>2009-04-12T00:00:00Z</dc:date>
+	<title>the best way to configure your dwm</title>
+	<link>https://knassar702.github.io//dwm.html</link>
+	<guid>https://knassar702.github.io//dwm.html</guid>
+	<dc:date>2021-6-21T00:00:00Z</dc:date>
 	<author>knassar702</author>
-	<description>This is an example page</description>
-</item>
-<item>
-	<title>Example page</title>
-	<link>https://scant3r.github.io//ibm.html</link>
-	<guid>https://scant3r.github.io//ibm.html</guid>
-	<dc:date>2009-04-12T00:00:00Z</dc:date>
-	<author>knassar702</author>
-	<description>This is an example page</description>
-</item>
-<item>
-	<title>How to find api keys from static files with scant3r</title>
-	<link>https://scant3r.github.io//find_regex.html</link>
-	<guid>https://scant3r.github.io//find_regex.html</guid>
-	<dc:date>2021-6-6T00:00:00Z</dc:date>
-	<author>knassar702</author>
-	<description>hello every one this bla bla blal</description>
-</item>
-<item>
-	<title>Example page 2</title>
-	<link>https://scant3r.github.io//example2.html</link>
-	<guid>https://scant3r.github.io//example2.html</guid>
-	<dc:date>2009-04-13T00:00:00Z</dc:date>
-	<author>knassar702</author>
-	<description>This is an example page 2</description>
-</item>
-<item>
-	<title>Example page</title>
-	<link>https://scant3r.github.io//example.html</link>
-	<guid>https://scant3r.github.io//example.html</guid>
-	<dc:date>2009-04-12T00:00:00Z</dc:date>
-	<author>knassar702</author>
-	<description>This is an example page</description>
+	<description>simple patching for dwm</description>
 </item>
 </channel>
 </rss>

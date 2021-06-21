@@ -2,7 +2,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	background-color: #fff;
+	background-color: #8A8A8A;
 	color: #000;
 	font-family: sans-serif;
 	margin: 0;
@@ -51,8 +51,8 @@ pre {
 	margin: 0;
 }
 code {
-	background-color: #eee;
-	border: 3px solid #aaa;
+	background-color: #6F6F6F;
+	border: 3px solid #121212;
 	display: block;
 	font-family: monospace;
 	overflow-x: auto;
@@ -63,7 +63,7 @@ code {
 	padding: 1ex 0;
 }
 #main {
-	border-top: 3px solid #aaa;
+	border-top: 3px solid #121212;
 }
 #menuwrap,
 #menu,
@@ -78,3 +78,4 @@ code {
 .hidden {
 	display: none;
 }
+
