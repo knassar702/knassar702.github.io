@@ -22,10 +22,4 @@ table tr td {
 pre {
 	margin: 0;
 }
-code {
-	border: 3px solid #aaa;
-	display: block;
-	overflow-x: auto;
-	padding: 5px;
-	word-wrap: normal;
-}
+
