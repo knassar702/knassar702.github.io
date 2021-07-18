@@ -4,7 +4,7 @@
 
 body {
     padding: 20px;
-    background-color: #282c34;
+    background-color: #14121e;
     color: #dfdfdf;
     font-family: "Roboto Mono";
     font-size: 14px;
@@ -25,7 +25,6 @@ mems{
   overflow: hidden;
 }
 img {
-  background: url('http://i60.tinypic.com/wb82e0.jpg') no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -37,7 +36,6 @@ img {
 }
 
 img:hover {
-  background-image: url('http://i59.tinypic.com/k0szuv.jpg'); 
   height: 125%;
   width: 125%;
 }
