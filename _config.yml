@@ -1,7 +1,7 @@
 host:        127.0.0.1
 port:        4000
 
-name:        "Welcome to the Void"
+name:        "Welcome to knassar702 blog"
 markdown:    kramdown
 highlighter: rouge
 
@@ -16,6 +16,3 @@ plugins:
 collections:
   platforms:
     output: true
-
-download_mirror: https://alpha.de.repo.voidlinux.org/live/current
-download_build_date: 2021-02-18
