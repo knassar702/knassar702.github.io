@@ -1,57 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ page.title }}</title>
-		<link rel="icon" type="image/png" href="/assets/img/favicon.png" />
-		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/assets/css/screen.css">
-		<link rel="stylesheet" href="/assets/css/misc.css">
-		<link href='/assets/css/font-ubuntu.css' rel='stylesheet' type='text/css'>
-		{% if site.snow == 1 %}<link rel="stylesheet" type="text/css" href="/assets/css/snow.css" />{% endif %}
-		<link rel="alternate" type="application/atom+xml" title="Atom feed" href="/atom.xml" />
-		<script src="/assets/js/jquery.min.js"></script>
-		<script src="/assets/js/bootstrap.min.js"></script>
-		<script src="/assets/js/tabbar.js"></script>
-	</head>
-	<body role="document">
-		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#void-collapsed-navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-right navbar-collapse" id="void-collapsed-navbar">
-					<ul class="nav navbar-nav">
-						<li><a href="/">Home</a></li>
-						<li><a href="/news/">News</a></li>
-						<li><a href="/download/">Download</a></li>
-						<li><a href="/packages/">Packages</a></li>
-						<li><a href="/acknowledgments/">Acknowledgments</a></li>
-						<li><a href="https://docs.voidlinux.org">Documentation</a></li>
-						<li><a href="https://man.voidlinux.org/">Manual Pages</a></li>
-						<li><a href="https://github.com/void-linux">GitHub</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div class="container">
-			{{ content }}
-			{% if site.snow == 1 %}{% include snow.html %}{% endif %}
-			<div class="container col-md-8 col-md-offset-2">
-				<hr>
-				<footer class="footer">
-					<p class="text-center">Copyright {{ site.time | date: "%Y" }} <a href="https://github.com/orgs/void-linux/people">VoidLinux contributors</a></p>
-					<p class="text-center">Copyright 2008-2018 <a href="https://gitlab.com/xtraeme">Juan RP</a> and contributors</p>
-					<p class="text-center">Linux&#174; is a registered trademark of Linus Torvalds (<a href="https://www.linuxfoundation.org/programs/legal/trademark/attribution">info</a>)</p>
-				</footer>
-			</div>
-		</div>
-	</body>
-</html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="keywords" content="blog, scant3r, dwm, suckless, linux, bug hunting, python, knassar702" />
+	<meta name="description" content="knassar702 blog" />
+	<meta name="author" content="knassar702" />
+    <title>{{page.title}}</title>
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/assets/css/print.css" type="text/css" media="print" />
+	<link rel="alternate" href="/atom.xml" type="application/atom+xml" title="knassar702 Atom Feed" />
+	<link rel="alternate" href="/atom_content.xml" type="application/atom+xml" title="knassar702 Atom Feed with content" />
+	<link href="https://knassar7o2.blogspot.com/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body><pre>
+_  __                              _____ ___ ____  
+| |/ /_ __   __ _ ___ ___  __ _ _ _|___  / _ \___ \ 
+| ' /| '_ \ / _` / __/ __|/ _` | '__| / / | | |__) |
+| . \| | | | (_| \__ \__ \ (_| | |   / /| |_| / __/ 
+|_|\_\_| |_|\__,_|___/___/\__,_|_|  /_/  \___/_____|
+    <p>Back-end Developer | Part Time Bug Bounty Hunter</p>
+	</pre>
+	<nav id="menuwrap">
+		<table id="menu" width="100%" border="0">
+		<tr>
+			<td id="links" align="left">
+				<a target="_blank" href="https://dev.to/knassar702">Blog</a> |
+				<a target="_blank" href="https://leetcode.com/knassar702">LeetCode</a> |
+				<a target="_blank" href="https://hackerone.com/floppahack">HackerOne</a> |
+				<a target="_blank" href="https://paypal.me/knassar702">Support</a> |
+				<a target="_blank" href="mailto:knassar702@protonmail.com" title="Mail me">Mail</a> |
+                <a target="_blank" href="https://github.com/knassar702" title="Git repository of scant3r">Github</a> | <a href="https://twitter.com/knassar702">Twitter</a>
+			</td>
+		</tr>
+		</table>
+	</nav>
