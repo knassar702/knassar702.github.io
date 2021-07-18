@@ -1,1 +1,0 @@
-2021-6-21T00:00:00Z	the best way to configure your dwm: https://knassar702.github.io//dwm.html
