@@ -1,15 +1,14 @@
 ---
 layout: std
-title: Enter the void - News
+title: Posts
 ---
 
-<div>
- <h2>Latest 10 recent news (<a href="/news/archive.html">see index</a>)</h2>
- <hr>
- {% for post in site.posts limit:10 %}
- <h4>{{ post.date | date: "%B %d, %Y" }}</h4>
- <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
- {{ post.content }}
- <hr>
- {% endfor %}
+<div class="page-header">
+ <h2>all posts</h2>
 </div>
+
+{% for post in site.posts reverse %}
+{% if post.index != false %}
+* {{ post.date | date: "%d.%m.%Y" }} - [{{ post.title }}]({{ post.url }})
+{% endif %}
+{% endfor %}
